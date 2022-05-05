@@ -1,0 +1,28 @@
+{
+  "name": "signin-signup",
+  "version": "1.0.0",
+  "description": "Sign in and Sign up node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/focus110/Login-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/focus110/Login-nodejs/issues"
+  },
+  "homepage": "https://github.com/focus110/Login-nodejs#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.18.1",
+    "express-unless": "^1.0.0",
+    "js": "^0.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2",
+    "mongoose-unique-validator": "^3.0.0"
+  }
+}
