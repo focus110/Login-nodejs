@@ -17,7 +17,7 @@ function authenticateToken(req, res, next) {
 
 function generateAccessToken(username) {
   return jwt.sign({ data: username}, "Snippet_SceretKEY"), {
-    expireIn: "1h"
+    expiresIn: "1h"
   }
 }
 
